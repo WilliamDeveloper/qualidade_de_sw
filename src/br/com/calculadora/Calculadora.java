@@ -20,6 +20,11 @@ public class Calculadora {
         return pNumero1 / pNumero2;
     }
     
+    int doRaiz(double pNumero, double pExpoente) {
+        return (int) Math.pow(pNumero, (1/pExpoente));
+    }
     
-
+    int doPotencia(double pBase, double pElevado) {
+        return (int)Math.pow(pBase, pElevado);
+    }
 }
