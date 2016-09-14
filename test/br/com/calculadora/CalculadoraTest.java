@@ -24,12 +24,12 @@ public class CalculadoraTest {
     @Test
     public void testaSeDoisMaisDoisIgualAquatro(){        
         //fail("Não foi implementado sei la");
-        assertEquals(4, calculadora.soma(2,2));        
+        assertEquals(4, calculadora.doSomar(2,2));        
     }
     
         @Test
     public void testaSeDoisMaisDoisIgualACinco(){
-        assertEquals(5, calculadora.soma(2,2));        
+        assertEquals(5, calculadora.doSomar(2,2));        
     }
 
 }
