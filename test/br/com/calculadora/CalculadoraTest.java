@@ -1,4 +1,4 @@
-package br.com.calculadora.testes;
+package br.com.calculadora;
 
 
 
