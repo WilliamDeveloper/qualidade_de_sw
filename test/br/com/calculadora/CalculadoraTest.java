@@ -12,11 +12,24 @@ import static org.junit.Assert.*;
 
 
 public class CalculadoraTest {
+
+    private Calculadora calculadora;
+    
+    
+    @Before
+    public void inicializa(){
+        calculadora = new Calculadora();
+    }
    
     @Test
-    public void testaSeDoisMaisDoisIgualAquatro(){
-        Calculadora calculadora = new Calculadora();
-        fail("Não foi implementado sei la");
+    public void testaSeDoisMaisDoisIgualAquatro(){        
+        //fail("Não foi implementado sei la");
+        assertEquals(4, calculadora.soma(2,2));        
+    }
+    
+        @Test
+    public void testaSeDoisMaisDoisIgualACinco(){
+        assertEquals(5, calculadora.soma(2,2));        
     }
 
 }
