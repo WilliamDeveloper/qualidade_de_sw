@@ -16,7 +16,7 @@ public class CalculadoraTest {
     @Test
     public void testaSeDoisMaisDoisIgualAquatro(){
         Calculadora calculadora = new Calculadora();
-        fail("Não foi implementado");
+        fail("Não foi implementado sei la");
     }
 
 }
